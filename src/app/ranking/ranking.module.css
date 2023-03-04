@@ -1,0 +1,41 @@
+.ranking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.middleSeparation {
+  width: 100%;
+  border-top: 0;
+  background-color: white;
+  border-color: white;
+  margin: 2rem 0;
+}
+
+.line {
+  background-color: rgba(75,75,75, 0.4);
+  color: white;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
+
+.list {
+  width: 90%;
+  padding: 0;
+  font-family: 'VT323', monospace;
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 9 ch;
+  border-left: solid 2px rgb(150, 150, 150, 0.5);
+  padding: 0 1rem;
+}
