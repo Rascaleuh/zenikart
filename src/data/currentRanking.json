@@ -97,13 +97,37 @@
   },
   {
     "name": "Mathilde Escoffier",
-    "head": "head.png",
+    "head": "mathilde.png",
     "win": "0",
     "loses": "0"
   },
   {
     "name": "Loïc Duchet",
     "head": "loic.png",
+    "win": "0",
+    "loses": "0"
+  },
+  {
+    "name": "Nirina Rabeson",
+    "head": "nirina.png",
+    "win": "0",
+    "loses": "0"
+  },
+  {
+    "name": "Maria-Eliza Paez",
+    "head": "maria.png",
+    "win": "0",
+    "loses": "0"
+  },
+  {
+    "name": "Geoffroy Begouaussel",
+    "head": "geoffroy.png",
+    "win": "0",
+    "loses": "0"
+  },
+  {
+    "name": "Audrey Gentili",
+    "head": "audrey.png",
     "win": "0",
     "loses": "0"
   }

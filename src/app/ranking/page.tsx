@@ -2,10 +2,16 @@ import styles from "./ranking.module.css";
 import Image from "next/image";
 import data from "../../data/currentRanking.json";
 import { Fragment } from "react";
+import { VT323 } from "next/font/google";
+
+const font = VT323({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export default function RankingPage() {
   return (
-    <section className={styles.ranking}>
+    <section className={`${styles.ranking} ${font.className}`}>
       <ul className={styles.list}>
         {data.map((person, index) => (
           <Fragment>
